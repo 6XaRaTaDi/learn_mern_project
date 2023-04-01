@@ -6,7 +6,8 @@ import mongoose from 'mongoose';
 
 const app = express();
 const PORT = process.env.port || 5000;
-const URI = 'mongodb+srv://root:BIV8lPeFNpnCxLOO@cluster0.pwi2z.mongodb.net/?retryWrites=true&w=majority'
+// add URI to connect mongoDB
+const URI = ''
 
 app.use(bodyParser.json({ limit: '30mb' }))
 app.use(bodyParser.urlencoded({ extended: true, limit: '30mb' }))
